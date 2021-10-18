@@ -20,18 +20,34 @@ text-decoration: none;
 }
 
 label {
-    float: left;
-    width: 30%;
+   
+    width: 41%;
     font-size: 1rem;
+    display: inline-block;
+   
       }
 
+      #lfn {
+          float: left;
+      }
+     
+      #lemail {
+          float: left;
+      }
 
-      
+      #lpword {
+          float: left;
+      }
 .container {
     width: 75%;
-    margin: 5% 20%;
-    /* align-content: center; */
+    margin: 5% 20% 5% 20%;
+    /* Top , Right , Bottom , Left */
+    }
+
+.spacer {
+    margin-top: 2rem;
 }
+
 #email {
     width: 81%;
 }
@@ -44,8 +60,7 @@ label {
     border-radius: 10px;
     width: 6rem;
     transition: background-color 0.1s ease;
-    /* align-self: right; */
-}
+   }
 
 .btn:hover {
     background-color: #0a4352;
@@ -68,9 +83,7 @@ label {
     border-radius: 10px;
     height: 2rem;
     width: 40%;
-    text-indent: 1rem;
-    /* text-align: center; */
-    /* margin: 6rem 0.5rem 6rem 0.5rem; */
-    display: inline-block;
+       text-indent: 1rem;
+       display: inline-block;
 
 }
